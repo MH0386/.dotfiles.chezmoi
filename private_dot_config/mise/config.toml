@@ -1,0 +1,13 @@
+[tools]
+apko = "latest"
+atuin = "latest"
+bat = "latest"
+chezmoi = "latest"
+gitconfig = "latest"
+github-cli = "latest"
+herdr = "latest"
+hk = "latest"
+uv = "latest"
+
+[settings]
+experimental = true

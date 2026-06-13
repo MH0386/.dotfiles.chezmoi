@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "mcpServers": {
+    "github-mcp-server": {
+      "url": "https://api.githubcopilot.com/mcp",
+      "registry": "devin/github-mcp-server"
+    },
+    "Mise": {
+      "command": "mise",
+      "args": ["mcp"]
+    }
+  },
+  "devin": {
+    "org_id": "org-44f60204311247688026f20c9c5b2f3f"
+  },
+  "shell": {
+    "setup_complete": true
+  },
+  "theme_mode": "dark",
+  "agent": {
+    "model": "kimi-k2-6"
+  }
+}
