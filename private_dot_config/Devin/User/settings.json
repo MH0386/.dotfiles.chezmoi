@@ -1,0 +1,11 @@
+{
+    "mise.configureExtensionsAutomatically": true,
+    "mise.enableTaskSymbolProvider": true,
+    "mise.updateOpenTerminalsEnvAutomatically": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1,
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay"
+}
