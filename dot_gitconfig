@@ -1,0 +1,9 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/mohamed/.local/share/mise/installs/github-cli/2.94.0/gh_2.94.0_linux_amd64/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/mohamed/.local/share/mise/installs/github-cli/2.94.0/gh_2.94.0_linux_amd64/bin/gh auth git-credential
+[user]
+	name = Mohamed Hisham Abdelzaher
+	email = mohamed.hisham.abdelzaher@gmail.com
