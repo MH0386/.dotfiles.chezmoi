@@ -7,5 +7,10 @@
     "window.zoomLevel": 1,
     "terminal.integrated.mouseWheelZoom": true,
     "editor.formatOnSave": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "devin.terminal.cascadeProfile.linux": "managed",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.hideUnchangedRegions.enabled": true
 }

@@ -7,3 +7,5 @@
 [user]
 	name = Mohamed Hisham Abdelzaher
 	email = mohamed.hisham.abdelzaher@gmail.com
+[core]
+	pager = hunk pager
