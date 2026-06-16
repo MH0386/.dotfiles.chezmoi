@@ -9,3 +9,8 @@
 	email = mohamed.hisham.abdelzaher@gmail.com
 [core]
 	pager = hunk pager
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

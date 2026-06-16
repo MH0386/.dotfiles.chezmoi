@@ -10,7 +10,23 @@
     "files.autoSave": "afterDelay",
     "git.confirmSync": false,
     "git.autofetch": true,
-    "devin.terminal.cascadeProfile.linux": "managed",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "devin.terminal.cascadeProfile.linux": "inherit",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "devin.acp.enabledAgents": {
+        "devin-cli": true,
+        "pi-acp": true,
+        "opencode": true
+    },
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/home/mohamed/.local/share/mise/shims/node"
+    },
+    "diffEditor.codeLens": true,
+    "pkl.lsp.java.path": "/home/mohamed/.local/share/mise/installs/java/26.0.1/bin/java",
+    "devin.acp.agentPreferences": {
+        "devin-cli": {
+            "model": "kimi-k2-6"
+        }
+    }
 }

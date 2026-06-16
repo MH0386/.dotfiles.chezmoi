@@ -1,2 +1,23 @@
-eval "$(mise activate zsh)"
+# Export editor
+export EDITOR="devin-desktop --wait"
+
+# Zplug
+source ~/.zplug/init.zsh
+zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/mise", from:oh-my-zsh
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug 'dracula/zsh', as:theme
+zplug 'zpm-zsh/check-deps'
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+if ! zplug check; then
+    zplug install
+fi
+zplug load
+
+# Eval
+# eval "$(mise activate zsh)"
 eval "$(atuin init zsh)"
+# eval "$(starship init zsh)"
+eval "$(mise activate zsh)"
