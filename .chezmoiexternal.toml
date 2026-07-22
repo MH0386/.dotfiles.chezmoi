@@ -1,0 +1,5 @@
+[".zplug"]
+    type = "archive"
+    url = "https://github.com/zplug/zplug/archive/main.tar.gz"
+    exact = true
+    stripComponents = 1

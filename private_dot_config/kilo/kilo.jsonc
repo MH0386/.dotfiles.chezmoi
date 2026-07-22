@@ -1,0 +1,9 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "plugin": [
+    "opencode-wakatime","@dietrichgebert/ponytail"
+  ],
+  "permission": {
+    "bash": "allow"
+  }
+}

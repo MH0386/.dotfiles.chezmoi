@@ -21,3 +21,5 @@ zplug load
 eval "$(atuin init zsh)"
 # eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
+# Added by Devin
+export PATH="/home/mohamed/.local/bin:$PATH"

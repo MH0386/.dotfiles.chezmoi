@@ -10,23 +10,27 @@
     "files.autoSave": "afterDelay",
     "git.confirmSync": false,
     "git.autofetch": true,
-    "devin.terminal.cascadeProfile.linux": "inherit",
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.hideUnchangedRegions.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "devin.acp.enabledAgents": {
-        "devin-cli": true,
-        "pi-acp": true,
-        "opencode": true
-    },
     "debug.javascript.defaultRuntimeExecutable": {
         "pwa-node": "/home/mohamed/.local/share/mise/shims/node"
     },
     "diffEditor.codeLens": true,
-    "pkl.lsp.java.path": "/home/mohamed/.local/share/mise/installs/java/26.0.1/bin/java",
-    "devin.acp.agentPreferences": {
-        "devin-cli": {
-            "model": "kimi-k2-6"
-        }
-    }
+    "explorer.confirmDelete": false,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "editor.fontFamily": "'JetBrains Mono', monaspanse, monospace",
+    "python-envs.workspaceSearchPaths": [
+        "**/pyproject.toml"
+    ],
+    "python.terminal.useEnvFile": true,
+    "python-envs.terminal.showActivateButton": true,
+    "python-envs.globalSearchPaths": [
+        "~/.local/share/uv/python"
+    ],
+    "jupyter.executionAnalysis.enabled": true,
+    "monorepoWorkspace.folders.custom": [
+        
+    ],
+    "window.autoDetectColorScheme": true
 }

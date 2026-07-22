@@ -120,6 +120,8 @@ system_theme = true
 [appearance.text]
 match_notebook_to_monospace_font_size = true
 ligature_rendering_enabled = true
+notebook_font_size = 14.0
+font_size = 13.0
 
 [appearance.window]
 open_windows_at_custom_size = false
@@ -142,3 +144,21 @@ enabled = true
 
 [general]
 default_session_mode = "terminal"
+
+[general.undo_close]
+enabled = false
+
+[session]
+
+[session.working_directory_config]
+advanced_mode = false
+global = { custom_dir = "", mode = "home_dir" }
+new_tab = { custom_dir = "", mode = "previous_dir" }
+new_window = { custom_dir = "", mode = "previous_dir" }
+split_pane = { custom_dir = "", mode = "previous_dir" }
+
+[system]
+force_x11 = false
+
+[experimental]
+async_find_enabled = true
