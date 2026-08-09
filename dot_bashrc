@@ -168,3 +168,8 @@ eval "$(mise activate bash)"
 
 # Added by Devin
 export PATH="/home/mohamed/.local/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/mohamed/.lmstudio/bin"
+# End of LM Studio CLI section
+

@@ -28,3 +28,8 @@ fi
 
 export EDITOR="cursor --wait"
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/mohamed/.lmstudio/bin"
+# End of LM Studio CLI section
+

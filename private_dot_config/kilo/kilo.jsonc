@@ -14,7 +14,10 @@
     "provider": "kilo"
   },
   "permission": {
-    "bash": "allow"
+    "bash": "allow",
+    "external_directory": {
+      "/tmp/*": "allow"
+    }
   },
   "plugin": [
     "opencode-wakatime",
@@ -25,5 +28,8 @@
     "enabled": true
   },
   "auto_collapse_reasoning": false,
-  "terminal_command_display": "expanded"
+  "terminal_command_display": "expanded",
+  "compaction": {
+    "auto": true
+  }
 }

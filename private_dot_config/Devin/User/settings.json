@@ -10,8 +10,7 @@
     "files.autoSave": "afterDelay",
     "git.confirmSync": false,
     "git.autofetch": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "security.workspace.trust.untrustedFiles": "open",
     "debug.javascript.defaultRuntimeExecutable": {
         "pwa-node": "/home/mohamed/.local/share/mise/shims/node"
@@ -20,17 +19,19 @@
     "explorer.confirmDelete": false,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "editor.fontFamily": "'JetBrains Mono', monaspanse, monospace",
-    "python-envs.workspaceSearchPaths": [
-        "**/pyproject.toml"
-    ],
     "python.terminal.useEnvFile": true,
     "python-envs.terminal.showActivateButton": true,
-    "python-envs.globalSearchPaths": [
-        "~/.local/share/uv/python"
-    ],
     "jupyter.executionAnalysis.enabled": true,
-    "monorepoWorkspace.folders.custom": [
-        
-    ],
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "editor.fontSize": 15,
+    "git.enableSmartCommit": true,
+    "cursor.general.glassShowWarningNotifications": true,
+    "python.defaultInterpreterPath": "/bin/python",
+    "editor.fontWeight": "bold",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "devin.cascade.enabled": false,
+    "workbench.colorTheme": "Devin Dark",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default"
 }

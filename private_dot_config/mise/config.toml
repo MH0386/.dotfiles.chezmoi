@@ -8,29 +8,35 @@ entire = "latest"
 fd = "latest"
 fzf = "latest"
 gitconfig = "latest"
+"github:CodSpeedHQ/codspeed" = "latest"
 "github:gitbutlerapp/grit" = "latest"
 "github:sinelaw/fresh" = "latest"
 herdr = "latest"
 hk = "latest"
 hunk = "latest"
 java = "latest"
+llmfit = "latest"
 node = "latest"
 "npm:@kilocode/cli" = "latest"
-opencode = "latest"
+"npm:openwiki" = "latest"
 pi = "latest"
 "pipx:commitizen" = "latest"
 "pipx:gnome-extensions-cli" = "latest"
+"pipx:hf" = "latest"
 "pipx:kaggle" = "latest"
 ripgrep = "latest"
+rust = "stable"
 starship = "latest"
 topgrade = "latest"
 usage = "latest"
 uv = "latest"
 wait-for-gh-rate-limit = "latest"
+wrangler = { version = "latest", allow_builds = ["esbuild", "sharp", "workerd"] }
 
 [settings]
 experimental = true
 lockfile = true
+minimum_release_age = "0d"
 
 [settings.github]
 use_git_credentials = true
